@@ -61,43 +61,43 @@ _Remove this section before the first commit to the repository_
 <table>
   <tr>
     <td align="center">
-      <img src="IMG/lipo.jpg" width="120"/><br/>
+      <img src="IMG/lipo%201200mah%2012v.jpeg" width="120"/><br/>
       <b>Lipo 1200mAh 12V</b>
     </td>
     <td align="center">
-      <img src="IMG/raspberrypi4.jpg" width="120"/><br/>
+      <img src="IMG/raspberrypi%204%20.jpeg" width="120"/><br/>
       <b>Raspberry Pi 4</b>
     </td>
     <td align="center">
-      <img src="IMG/limelight3a.jpg" width="120"/><br/>
+      <img src="IMG/limelight%203A%20.jpeg" width="120"/><br/>
       <b>Limelight 3A</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="IMG/servoMG945.jpg" width="120"/><br/>
+      <img src="IMG/servo%20MG945.jpeg" width="120"/><br/>
       <b>Servo MG945</b>
     </td>
     <td align="center">
-      <img src="IMG/lidarLD19.jpg" width="120"/><br/>
+      <img src="IMG/LDrobot%20lidar%20LD19.jpeg" width="120"/><br/>
       <b>Lidar LD19</b>
     </td>
     <td align="center">
-      <img src="IMG/lm2596.jpg" width="120"/><br/>
+      <img src="IMG/LM%202596.jpeg" width="120"/><br/>
       <b>LM2596</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="IMG/pwmcontroller.jpg" width="120"/><br/>
+      <img src="IMG/PWM%20MOSFET%20controller.jpeg" width="120"/><br/>
       <b>PWM MOSFET Controller</b>
     </td>
     <td align="center">
-      <img src="IMG/jga25-370.jpg" width="120"/><br/>
+      <img src="IMG/motor%20jga25-370.jpeg" width="120"/><br/>
       <b>Motor JGA25-370</b>
     </td>
     <td align="center">
-      <img src="IMG/switch3pin.jpg" width="120"/><br/>
+      <img src="IMG/switch%20random%203%20pines.jpeg" width="120"/><br/>
       <b>Switch 3 Pines</b>
     </td>
   </tr>
