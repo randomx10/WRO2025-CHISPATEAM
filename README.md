@@ -25,79 +25,48 @@ _Remove this section before the first commit to the repository_
 2. Remove `.git` directory
 3. [Initialize a new public repository on GitHub](https://github.com/new) by following instructions from "create a new repository on the command line" section (appeared after pressing "Create repository" button).
 
-<h2 align="center">Vehicle's Photos</h2>
-
-<table>
-  <tr>
-    <th>Front</th>
-    <th>Right</th>
-    <th>Back</th>
-  </tr>
-  <tr>
-    <td><img src="v-photos/Front.jpeg" width="200"/></td>
-    <td><img src="v-photos/Right.jpeg" width="200"/></td>
-    <td><img src="v-photos/Back.jpeg" width="200"/></td>
-  </tr>
-  <tr>
-    <th>Left</th>
-    <th>Top</th>
-    <th>Bottom</th>
-  </tr>
-  <tr>
-    <td><img src="v-photos/Left.jpeg" width="200"/></td>
-    <td><img src="v-photos/Top.jpeg" width="200"/></td>
-    <td><img src="v-photos/Bottom.jpeg" width="200"/></td>
-  </tr>
-</table>
-
-    <td><img src="Left.jpeg" width="200"/></td>
-    <td><img src="Top.jpeg" width="200"/></td>
-    <td><img src="Bottom.jpeg" width="200"/></td>
-  </tr>
-</table>
-
 <h2 align="center">Componentes</h2>
 
 <table>
   <tr>
     <td align="center">
-      <img src="IMG/lipo%201200mah%2012v.jpeg" width="120"/><br/>
+      <img src="IMG/lipo_1200mah_12v.jpeg" width="120"/><br/>
       <b>Lipo 1200mAh 12V</b>
     </td>
     <td align="center">
-      <img src="IMG/raspberrypi%204%20.jpeg" width="120"/><br/>
-      <b>Raspberry Pi 4 </b>
+      <img src="IMG/raspberrypi4.jpeg" width="120"/><br/>
+      <b>Raspberry Pi 4</b>
     </td>
     <td align="center">
-      <img src="IMG/limelight%203A%20.jpeg" width="120"/><br/>
+      <img src="IMG/limelight3a.jpeg" width="120"/><br/>
       <b>Limelight 3A</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="IMG/servo%20MG945.jpeg" width="120"/><br/>
+      <img src="IMG/servoMG945.jpeg" width="120"/><br/>
       <b>Servo MG945</b>
     </td>
     <td align="center">
-      <img src="IMG/LDrobot%20lidar%20LD19.jpeg" width="120"/><br/>
+      <img src="IMG/lidarLD19.jpeg" width="120"/><br/>
       <b>Lidar LD19</b>
     </td>
     <td align="center">
-      <img src="IMG/LM%202596.jpeg" width="120"/><br/>
+      <img src="IMG/lm2596.jpeg" width="120"/><br/>
       <b>LM2596</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="IMG/PWM%20MOSFET%20controller.jpeg" width="120"/><br/>
+      <img src="IMG/pwm_mosfet_controller.jpeg" width="120"/><br/>
       <b>PWM MOSFET Controller</b>
     </td>
     <td align="center">
-      <img src="IMG/motor%20jga25-370.jpeg" width="120"/><br/>
+      <img src="IMG/motor_jga25-370.jpeg" width="120"/><br/>
       <b>Motor JGA25-370</b>
     </td>
     <td align="center">
-      <img src="IMG/switch%20random%203%20pines.jpeg" width="120"/><br/>
+      <img src="IMG/switch_3_pines.jpeg" width="120"/><br/>
       <b>Switch 3 Pines</b>
     </td>
   </tr>
