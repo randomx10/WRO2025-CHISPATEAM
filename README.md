@@ -66,7 +66,7 @@ _Remove this section before the first commit to the repository_
     </td>
     <td align="center">
       <img src="IMG/raspberrypi%204%20.jpeg" width="120"/><br/>
-      <b>Raspberry Pi 4</b>
+      <b>Raspberry Pi 4 </b>
     </td>
     <td align="center">
       <img src="IMG/limelight%203A%20.jpeg" width="120"/><br/>
