@@ -34,9 +34,9 @@ _Remove this section before the first commit to the repository_
     <th>Back</th>
   </tr>
   <tr>
-    <td><img src="Front.jpeg" width="200"/></td>
-    <td><img src="Right.jpeg" width="200"/></td>
-    <td><img src="Back.jpeg" width="200"/></td>
+    <td><img src="v-photos/Front.jpeg" width="200"/></td>
+    <td><img src="v-photos/Right.jpeg" width="200"/></td>
+    <td><img src="v-photos/Back.jpeg" width="200"/></td>
   </tr>
   <tr>
     <th>Left</th>
@@ -44,6 +44,12 @@ _Remove this section before the first commit to the repository_
     <th>Bottom</th>
   </tr>
   <tr>
+    <td><img src="v-photos/Left.jpeg" width="200"/></td>
+    <td><img src="v-photos/Top.jpeg" width="200"/></td>
+    <td><img src="v-photos/Bottom.jpeg" width="200"/></td>
+  </tr>
+</table>
+
     <td><img src="Left.jpeg" width="200"/></td>
     <td><img src="Top.jpeg" width="200"/></td>
     <td><img src="Bottom.jpeg" width="200"/></td>
