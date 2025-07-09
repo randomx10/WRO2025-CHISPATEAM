@@ -1,6 +1,6 @@
 # Chispas team – Proyecto WRO 2025
 
-¡Bienvenidos al repositorio oficial del equipo **[Chispas team]**!  
+¡Bienvenidos al repositorio oficial del equipo **Chispas team**!  
 Este espacio contiene todos los recursos, esquemas, modelos, fotografías y código desarrollados para nuestra participación en el desafío **Future Engineers** de la **World Robot Olympiad 2025**.
 
 Aquí podrás encontrar información detallada sobre el diseño, funcionamiento y documentación técnica de nuestro vehículo autónomo.
