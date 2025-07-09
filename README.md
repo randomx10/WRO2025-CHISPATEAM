@@ -24,11 +24,11 @@ Aquí puedes observar el diseño completo del vehículo desde todos sus ángulos
 
 | Frontal | Trasera | Izquierda |
 |--------|---------|-----------|
-| ![](v-photos/front.jpg) | ![](v-photos/back.jpg) | ![](v-photos/left.jpg) |
+| ![](v-photos/Front.jpeg) | ![](v-photos/Back.jpeg) | ![](v-photos/Left.jpeg) |
 
 | Derecha | Superior | Inferior |
 |--------|----------|----------|
-| ![](v-photos/right.jpg) | ![](v-photos/top.jpg) | ![](v-photos/bottom.jpg) |
+| ![](v-photos/Right.jpeg) | ![](v-photos/Top.jpeg) | ![](v-photos/Bottom.jpeg) |
 
 ## Content
 
