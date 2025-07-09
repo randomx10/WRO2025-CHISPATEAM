@@ -16,6 +16,20 @@ A continuación, compartimos dos imágenes que reflejan nuestra identidad como e
 | ![Foto oficial del equipo](t-photos/foto_oficial.jpeg) | ![Foto divertida del equipo](t-photos/foto_divertida.jpeg) |
 
 
+---
+
+## 🚗 Vista del Vehículo
+
+Aquí puedes observar el diseño completo del vehículo desde todos sus ángulos. Esta vista detallada ayuda a entender la distribución de componentes y la estructura general.
+
+| Frontal | Trasera | Izquierda |
+|--------|---------|-----------|
+| ![](v-photos/front.jpg) | ![](v-photos/back.jpg) | ![](v-photos/left.jpg) |
+
+| Derecha | Superior | Inferior |
+|--------|----------|----------|
+| ![](v-photos/right.jpg) | ![](v-photos/top.jpg) | ![](v-photos/bottom.jpg) |
+
 ## Content
 
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
