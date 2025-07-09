@@ -13,7 +13,7 @@ A continuación, compartimos dos imágenes que reflejan nuestra identidad como e
 
 | 📷 Foto Oficial | 😄 Foto Divertida |
 |----------------|-------------------|
-| ![Foto oficial del equipo](t-photos/foto_oficial.jpg) | ![Foto divertida del equipo](t-photos/foto_divertida.jpg) |
+| ![Foto oficial del equipo](t-photos/foto_oficial.jpeg) | ![Foto divertida del equipo](t-photos/foto_divertida.jpeg) |
 
 
 ## Content
