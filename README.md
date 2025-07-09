@@ -28,7 +28,7 @@ Aquí puedes observar el diseño completo del vehículo desde todos sus ángulos
 
 | Derecha | Superior | Inferior |
 |--------|----------|----------|
-| ![](v-photos/Right.jpeg) | ![](v-photos/Top.jpeg) | ![](v-photos/Bottom.jpeg) |
+| ![](v-photos/Right.jpeg) | ![](v-photos/top1.jpeg) | ![](v-photos/Bottom.jpeg) |
 
 ## Content
 
