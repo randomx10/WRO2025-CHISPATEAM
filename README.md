@@ -1,7 +1,20 @@
-Engineering materials
-====
+# Chispas team – Proyecto WRO 2025
 
-This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
+¡Bienvenidos al repositorio oficial del equipo **[Chispas team]**!  
+Este espacio contiene todos los recursos, esquemas, modelos, fotografías y código desarrollados para nuestra participación en el desafío **Future Engineers** de la **World Robot Olympiad 2025**.
+
+Aquí podrás encontrar información detallada sobre el diseño, funcionamiento y documentación técnica de nuestro vehículo autónomo.
+
+---
+
+## 📸 Fotos del Equipo
+
+A continuación, compartimos dos imágenes que reflejan nuestra identidad como equipo:
+
+| 📷 Foto Oficial | 😄 Foto Divertida |
+|----------------|-------------------|
+| ![Foto oficial del equipo](t-photos/foto_oficial.jpg) | ![Foto divertida del equipo](t-photos/foto_divertida.jpg) |
+
 
 ## Content
 
