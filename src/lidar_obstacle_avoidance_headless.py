@@ -200,9 +200,9 @@ class LidarObstacleAvoidanceHeadless:
         time.sleep(1)  # Allow servo to reach position
         self.set_motor_speed(70)  # Start with 70% motor speed
         
-        logger.info("🏁 Obstacle avoidance system started - 7 lap challenge!")
-        logger.info(f"🎯 Monitoring for obstacles at {self.TARGET_ANGLE}° (front)")
-        logger.info(f"🏆 Will complete {self.max_laps} laps")
+        logger.info("Obstacle avoidance system started")
+        logger.info(f"Monitoring for obstacles at {self.TARGET_ANGLE}° (front)")
+        logger.info(f"Will complete {self.max_laps} laps")
         
         return True
     
@@ -468,7 +468,7 @@ class LidarObstacleAvoidanceHeadless:
                 # Log status every 10 seconds
                 if current_time - last_status_time >= 10:
                     status = self.get_status()
-                    logger.info(f"📊 Status - Lap: {status['lap_count']}/{status['max_laps']}, "
+                    logger.info(f"Status - Lap: {status['lap_count']}/{status['max_laps']}, "
                               f"Obstacle: {'🚨 YES' if status['obstacle_detected'] else '✅ NO'}, "
                               f"Servo: {status['current_servo_angle']}°, "
                               f"Motor: {status['motor_speed']}%, "
@@ -478,7 +478,7 @@ class LidarObstacleAvoidanceHeadless:
                 time.sleep(1.0)
                 
             if not self.shutdown_requested:
-                logger.info("🏆 Challenge completed successfully!")
+                logger.info("Challenge completed successfully!")
             
             return True
             
@@ -492,7 +492,7 @@ class LidarObstacleAvoidanceHeadless:
 def main():
     """Main function for headless operation"""
     logger.info("=" * 60)
-    logger.info("🤖 LiDAR Obstacle Avoidance System - HEADLESS MODE")
+    logger.info("LiDAR Obstacle Avoidance System - HEADLESS MODE")
     logger.info("=" * 60)
     logger.info("🚀 Designed for automatic startup without user interaction")
     logger.info("📊 Features:")
