@@ -38,15 +38,15 @@ Below is a visual overview of the main electronic and mechanical components used
 
 | Component 1 | Component 2 | Component 3 |
 |-------------|-------------|-------------|
-| ![](schemes/component1.jpg) | ![](schemes/component2.jpg) | ![](schemes/component3.jpg) |
+| ![](schemes/component1.jpeg) | ![](schemes/component2.jpeg) | ![](schemes/component3.jpeg) |
 
 | Component 4 | Component 5 | Component 6 |
 |-------------|-------------|-------------|
-| ![](schemes/component4.jpg) | ![](schemes/component5.jpg) | ![](schemes/component6.jpg) |
+| ![](schemes/component4.jpeg) | ![](schemes/component5.jpeg) | ![](schemes/component6.jpeg) |
 
 | Component 7 | Component 8 | Component 9 |
 |-------------|-------------|-------------|
-| ![](schemes/component7.jpg) | ![](schemes/component8.jpg) | ![](schemes/component9.jpg) |
+| ![](schemes/component7.jpeg) | ![](schemes/component8.jpeg) | ![](schemes/component9.jpeg) |
 
 > 📸 All images above are real or representative examples of the parts we used in our robot.
 
