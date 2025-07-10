@@ -1,0 +1,30 @@
+[Unit]
+Description=WRO LiDAR Obstacle Avoidance System
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/wro
+ExecStart=/usr/bin/python3 /home/pi/wro/lidar_obstacle_avoidance_headless.py
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+# Environment variables
+Environment=PYTHONPATH=/home/pi/wro
+Environment=HOME=/home/pi
+
+# Resource limits
+MemoryLimit=512M
+CPUQuota=80%
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
