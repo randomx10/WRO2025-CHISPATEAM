@@ -1,34 +1,34 @@
-# Chispas team – Proyecto WRO 2025
+# Chispas team – WRO 2025 Project
 
-¡Bienvenidos al repositorio oficial del equipo **Chispas team**!  
-Este espacio contiene todos los recursos, esquemas, modelos, fotografías y código desarrollados para nuestra participación en el desafío **Future Engineers** de la **World Robot Olympiad 2025**.
+Welcome to the official repository of the **Chispas team**!  
+This space contains all the resources, schematics, models, photos, and code developed for our participation in the **Future Engineers** challenge at the **World Robot Olympiad 2025**.
 
-Aquí podrás encontrar información detallada sobre el diseño, funcionamiento y documentación técnica de nuestro vehículo autónomo.
-
----
-
-## 📸 Fotos del Equipo
-
-A continuación, compartimos dos imágenes que reflejan nuestra identidad como equipo:
-
-| 📷 Foto Oficial | 😄 Foto Divertida |
-|----------------|-------------------|
-| ![Foto oficial del equipo](t-photos/foto_oficial.jpeg) | ![Foto divertida del equipo](t-photos/foto_divertida.jpeg) |
-
+Here you’ll find detailed information about the design, functionality, and technical documentation of our autonomous vehicle.
 
 ---
 
-## 🚗 Vista del Vehículo
+## 📸 Team Photos
 
-Aquí puedes observar el diseño completo del vehículo desde todos sus ángulos. Esta vista detallada ayuda a entender la distribución de componentes y la estructura general.
+Below are two images that reflect our team’s identity:
 
-| Frontal | Trasera | Izquierda |
+| 📷 Official Photo | 😄 Fun Photo |
+|------------------|--------------|
+| ![Official team photo](t-photos/foto_oficial.jpeg) | ![Fun team photo](t-photos/foto_divertida.jpeg) |
+
+---
+
+## 🚗 Vehicle View
+
+Here you can see the full design of the vehicle from every angle. This detailed view helps to understand the layout of components and overall structure.
+
+| Front | Back | Left |
 |--------|---------|-----------|
 | ![](v-photos/Front.jpeg) | ![](v-photos/Back.jpeg) | ![](v-photos/Left.jpeg) |
 
-| Derecha | Superior | Inferior |
+| Right | Top | Bottom |
 |--------|----------|----------|
 | ![](v-photos/Right.jpeg) | ![](v-photos/top1.jpeg) | ![](v-photos/Bottom.jpeg) |
+
 
 ---
 
