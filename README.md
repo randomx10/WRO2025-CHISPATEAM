@@ -50,7 +50,7 @@ Below is a visual overview of the main electronic and mechanical components used
 
 | Component 10 | Component 11 | Component 12 |
 |-------------|-------------|-------------|
-| ![](schemes/component10.jpeg) | ![](schemes/component11.jpeg) | ![](schemes/component12.jpeg) |
+| ![](schemes/component10.jpg) | ![](schemes/component11.webp) | ![](schemes/component12.webp) |
 
 > 📸 All images above are real or representative examples of the parts we used in our robot.
 
