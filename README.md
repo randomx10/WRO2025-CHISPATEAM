@@ -27,7 +27,7 @@ Here you can see the full design of the vehicle from every angle. This detailed 
 
 | Right | Top | Bottom |
 |--------|----------|----------|
-| ![](v-photos/derecha.jpeg) | ![](v-photos/arrriba.jpeg) | ![](v-photos/abajo.jpeg) |
+| ![](v-photos/derecha.jpeg) | ![](v-photos/arriba.jpeg) | ![](v-photos/abajo.jpeg) |
 
 
 ---
