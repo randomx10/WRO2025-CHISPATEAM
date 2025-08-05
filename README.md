@@ -37,30 +37,30 @@ Here you can see the full design of the vehicle from every angle. This detailed 
   <tr>
     <td align="center">
       <img src="schemes/component1.jpeg" width="220" style="border-radius:12px;"><br>
-      <b>LiPo Battery 1200mAh 12V</b>
+      <b>3-Pin Switch</b>
     </td>
     <td align="center">
       <img src="schemes/component2.jpeg" width="220" style="border-radius:12px;"><br>
-      <b>Raspberry Pi 4</b>
+      <b>Servo MG945</b>
     </td>
     <td align="center">
       <img src="schemes/component3.jpeg" width="220" style="border-radius:12px;"><br>
-      <b>Limelight 3A</b>
+      <b>Raspberry Pi 4</b>
     </td>
   </tr>
 
   <tr>
     <td align="center">
       <img src="schemes/component4.jpeg" width="220" style="border-radius:12px;"><br>
-      <b>Servo MG945</b>
-    </td>
-    <td align="center">
-      <img src="schemes/component5.jpeg" width="220" style="border-radius:12px;"><br>
       <b>JGA25-370 Motor</b>
     </td>
     <td align="center">
+      <img src="schemes/component5.jpeg" width="220" style="border-radius:12px;"><br>
+      <b>LiPo Battery 1200mAh 12V</b>
+    </td>
+    <td align="center">
       <img src="schemes/component6.jpeg" width="220" style="border-radius:12px;"><br>
-      <b>LM2596 Regulator</b>
+      <b>Limelight 3A</b>
     </td>
   </tr>
 
@@ -71,22 +71,22 @@ Here you can see the full design of the vehicle from every angle. This detailed 
     </td>
     <td align="center">
       <img src="schemes/component8.jpeg" width="220" style="border-radius:12px;"><br>
-      <b>GY-251 Gyroscope</b>
+      <b>L298N Motor Driver</b>
     </td>
     <td align="center">
       <img src="schemes/component10.jpg" width="220" style="border-radius:12px;"><br>
-      <b>TCS3200 Color Sensor</b>
+      <b>HC-SR04 Sensor</b>
     </td>
   </tr>
 
   <tr>
     <td align="center">
       <img src="schemes/component11.webp" width="220" style="border-radius:12px;"><br>
-      <b>L298N Motor Driver</b>
+      <b>GY-251 Gyroscope</b>
     </td>
     <td align="center">
       <img src="schemes/component12.webp" width="220" style="border-radius:12px;"><br>
-      <b>3-Pin Switch</b>
+      <b>TCS3200 Color Sensor</b>
     </td>
     <td></td>
   </tr>
