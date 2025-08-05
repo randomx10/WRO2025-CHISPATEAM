@@ -32,37 +32,24 @@ Here you can see the full design of the vehicle from every angle. This detailed 
 
 ---
 
-## 🧠 Electromechanical Components & Wiring
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
 
-Below is a visual overview of the main electronic and mechanical components used in our vehicle:
+  <img src="schemes/component1.jpeg" alt="Component 1" width="200"/>
+  <img src="schemes/component2.jpeg" alt="Component 2" width="200"/>
+  <img src="schemes/component3.jpeg" alt="Component 3" width="200"/>
 
-<table>
-  <tr>
-    <td align="center"><img src="schemes/component1.jpeg" width="150"/></td>
-    <td align="center"><img src="schemes/component2.jpeg" width="150"/></td>
-    <td align="center"><img src="schemes/component3.jpeg" width="150"/></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="schemes/component4.jpeg" width="150"/></td>
-    <td align="center"><img src="schemes/component5.jpeg" width="150"/></td>
-    <td align="center"><img src="schemes/component6.jpeg" width="150"/></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="schemes/component7.jpeg" width="150"/></td>
-    <td align="center"><img src="schemes/component8.jpeg" width="150"/></td>
-    <td align="center"><img src="schemes/component10.jpg" width="150"/></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="schemes/component11.webp" width="150"/></td>
-    <td align="center"><img src="schemes/component12.webp" width="150"/></td>
-    <td align="center">—</td>
-  </tr>
-</table>
+  <img src="schemes/component4.jpeg" alt="Component 4" width="200"/>
+  <img src="schemes/component5.jpeg" alt="Component 5" width="200"/>
+  <img src="schemes/component6.jpeg" alt="Component 6" width="200"/>
 
-> 📸 All images above are real or representative examples of the parts we used in our robot.
+  <img src="schemes/component7.jpeg" alt="Component 7" width="200"/>
+  <img src="schemes/component8.jpeg" alt="Component 8" width="200"/>
+  <img src="schemes/component10.jpg" alt="Component 9" width="200"/>
 
+  <img src="schemes/component11.webp" alt="Component 10" width="200"/>
+  <img src="schemes/component12.webp" alt="Component 11" width="200"/>
 
-> 📸 All images above are real or representative examples of the parts we used in our robot.
+</div>
 
 ---
 
