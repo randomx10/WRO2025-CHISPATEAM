@@ -29,8 +29,8 @@ Here you can see the full design of the vehicle from every angle. This detailed 
 |--------|----------|----------|
 | ![](v-photos/derecha.jpeg) | ![](v-photos/arriba.jpeg) | ![](v-photos/abajo.jpeg) |
 
-
 ---
+
 <h2 align="left">🧠 Electromechanical Components & Wiring</h2>
 
 <table>
@@ -92,7 +92,6 @@ Here you can see the full design of the vehicle from every angle. This detailed 
   </tr>
 </table>
 
-
 ---
 
 ### 📊 Wiring Diagram
@@ -105,17 +104,173 @@ Below is the full electromechanical schematic that shows how everything is conne
 
 ---
 
-## ⚠️ Challenges During Development
+## 🔧 Components and Sensor Integration
 
-Like any real-world project, we faced several challenges that pushed us to adapt, learn quickly, and find creative solutions. Here are some of the main issues we had to overcome:
+Our robot was built using a mix of modular components from an existing kit and custom-designed 3D printed parts to fit the needs of the Future Engineers challenge. This hybrid approach allowed us to maximize the strengths of reliable, pre-tested hardware while also tailoring specific solutions for unique tasks in the mission. Below is a highly detailed breakdown of all the components we used, their technical roles, the integration logic, issues we faced, and how we adapted to overcome them. Our documentation not only reflects the functionality of each part, but also highlights the engineering decisions made throughout the robot’s development.
 
-- **LiDAR connection problems:** At the beginning, we couldn’t get the LiDAR to connect properly with our system. It took us a while to understand the communication protocol and configure it correctly so it would respond as expected.
+### 🔋 Power Supply
 
-- **Inaccurate data:** Even after establishing the connection, the data we received from the LiDAR was imprecise and unreliable. We had to tweak the reading filters and run several tests until we got stable and useful measurements.
+**LiPo Battery 1200mAh 12V**
 
-- **Track border size issues:** We noticed that the track borders were 1 cm smaller than expected. This affected how our robot detected edges and navigated the course, so we decided to increase the borders by 1 cm to match the official measurements and avoid errors.
+- Powers the entire robot system, ensuring both mobility and computational processing are supported throughout the match.  
+- Provides stable power output for the motors, sensors, Raspberry Pi, and Arduino.  
+- We used a voltage regulator to avoid current spikes and protect delicate components like microcontrollers.  
+- This solution helped mitigate early issues we faced with sudden shutdowns during intensive operations.  
+- A battery monitor was also incorporated to measure real-time voltage and alert us when levels dropped too low.
 
-- **3D part adjustments:** We had to redesign a 3D-printed part that holds the LiDAR sensor. It needed to have just the right height so the LiDAR could rotate freely without hitting other components. This took some trial and error until we got it just right.
+### 💻 Main Controllers
 
-- **Camera configuration and lighting:** Object detection didn’t work well at first. We had to adjust settings like exposure and white balance, since lighting conditions were messing up the color and shape recognition. Proper calibration made a big difference.
+**Raspberry Pi 4**
+
+- Acts as the central processing hub of the robot.  
+- Responsible for image processing, decision-making logic, and managing sensor data.  
+- Runs Python scripts to interpret input from the Limelight and communicates with the Arduino through a serial interface.  
+- Its high-speed processing capabilities allow us to manage simultaneous tasks like pathfinding, obstacle avoidance, and turn correction.  
+- Includes an external cooling fan and heat sinks to maintain optimal temperature during extended operations.
+
+**Arduino UNO**
+
+- Controls low-level tasks such as PWM motor control and real-time sensor readings (e.g., ultrasonic distance, servo movements).  
+- Acts as a reliable bridge for deterministic behavior in the hardware layer.  
+- The division of responsibilities between Pi and Arduino helped us balance computational load and reduce latency.  
+- Simplifies hardware debugging and guarantees fast, responsive control signals.
+
+### 👁️ Object Detection & Tracking
+
+**Limelight 3A**
+
+- Originally designed for FRC robots, this powerful camera system was adapted to fit our smaller robot.  
+- Detects and locks onto specific colored or shaped objects.  
+- Enables autonomous navigation by marking visual targets and aligning accordingly.
+
+**Challenges:**  
+- Required a well-lit and consistent environment to provide reliable data.  
+- We adjusted the robot’s onboard lighting and modified thresholds in the Limelight software to improve reliability.  
+- Integrated a protective mount and anti-vibration dampers to stabilize image input.
+
+### 🚫 Removed Component
+
+**LDrobot Lidar LD19**
+
+- Initially selected for real-time SLAM and environment scanning.
+
+**Why We Stopped Using It:**  
+- Provided unstable and inconsistent results in small, confined spaces.  
+- Difficulty detecting nearby walls and objects due to reflection noise.  
+- Calibration proved time-consuming and performance did not justify complexity.
+
+**Our Solution:**  
+- Replaced with strategically placed ultrasonic sensors and a reliable gyroscope to manage spatial awareness with much greater efficiency.  
+- This switch greatly improved the consistency and reduced computational load.
+
+### 🔄 Motor Control
+
+**L298N Motor Driver**
+
+- Dual H-Bridge driver that allows for direction control and PWM-based speed adjustment.  
+- Initial controller suffered overheating; L298N offered a robust and thermally safer alternative.  
+- Equipped with a built-in heat sink and external fan to improve heat dissipation.
+
+**JGA25-370 Gear Motors**
+
+- Provide strong torque and reliable performance, especially during turns and ramp climbs.  
+- Compatible with our power source and robust enough for repeated high-load operations.  
+- Low RPM ensures accurate control in precision-based movement challenges.
+
+**Servo MG945**
+
+- Handles mechanical arm or gate-style components used to interact with physical game elements.  
+- Durable metal gears ensure precision and long operational lifespan.  
+- Integrated with custom 3D-printed brackets to prevent misalignment and slippage.
+
+### 🔊 Sensors for Navigation and Detection
+
+**HC-SR04 Ultrasonic Sensors**
+
+- Function: Detect distance to nearby objects and walls.  
+- Technical Accuracy: ~3mm, max range 4m.  
+- Usage: Placed on both front and side of robot to measure proximity and assist in avoiding wall collisions.  
+- These sensors play a critical role in maintaining correct lane alignment and determining when to make turns.  
+- We added foam dampers around the sensors to reduce interference from ground reflections.
+
+**GY-251 Accelerometer + Gyroscope (MPU6050-based)**
+
+- Function: Detects angular velocity and tilt.  
+- Usage: Guides the robot’s heading during turns and confirms straight-line travel.  
+- Essential for making consistent 90° turns and for recalibration during complex movements.  
+- Mounted at the center of gravity to reduce noise and increase accuracy.
+
+**TCS3200 Color Sensor**
+
+- Function: Reads floor tile colors to guide robot’s path.
+
+**Issues and Solutions:**  
+- One unit had significant lag and failed to detect color transitions in motion.  
+- Another sensor misidentified multiple colors and only read orange with high confidence.  
+- Calibration trials under consistent lighting; replaced the malfunctioning unit with a higher-quality clone.
+
+**Accuracy Reference (sourced from online comparative tests):**
+
+| Color  | Accuracy (%) |
+|--------|--------------|
+| Red    | 92%          |
+| Green  | 89%          |
+| Blue   | 94%          |
+| Yellow | 87%          |
+| Orange | 96%          |
+| White  | 91%          |
+| Black  | 88%          |
+
+### 🔌 Power & Regulation
+
+**LM2596 Voltage Regulator**
+
+- Converts 12V from LiPo battery to stable 5V required by sensors and controllers.  
+- Fine-tunable and heat-resistant, preventing power-related failure during operation.  
+- Easy to replace and adjust for different output requirements during testing phases.
+
+**3-pin Toggle Switch**
+
+- Allows safe, manual powering of the entire robot without direct battery disconnection.  
+- Placed on the back panel for convenient access and safety during handling.
+
+---
+
+## 🧠 How It All Works Together
+
+Our robot was developed for the WRO 2025 Future Engineers Challenge, a task requiring navigation of a color-coded maze, obstacle avoidance, and accurate maneuvering. To achieve this, we implemented a layered control strategy:
+
+**Color Sensing:**  
+- The robot follows a line/path system on the floor, detecting color patterns using the TCS3200.  
+- Decisions (turns, stops, or interactions) are triggered based on detected color.  
+- Logic is reinforced with timeouts and counters to avoid misreads from transient reflections.
+
+**Obstacle Avoidance:**  
+- HC-SR04 sensors measure distances in real-time.  
+- On detecting an object or wall within a threshold, the robot adjusts trajectory accordingly.  
+- In edge cases, the gyroscope is consulted to determine alternative safe paths.
+
+**Turning & Direction Control:**  
+- Using GY-251 gyro data, we ensure consistent 90° turns.  
+- Helps correct drift and ensures we remain aligned with map paths.  
+- Combined with encoder data for better positional awareness.
+
+**Central Coordination:**  
+- The Raspberry Pi processes high-level logic and forwards simplified instructions to the Arduino.  
+- This modular separation allows real-time reaction to environmental data while executing long-term movement plans.  
+- Logs are stored locally for later debugging and performance analysis.
+
+**Structural Customization:**  
+- We modified kit-based chassis with 3D-printed mounts for better sensor placement and airflow.  
+- This helped avoid overheating and mechanical misalignments during long test sessions.  
+- The design is compact yet expandable, making it ideal for future missions.
+
+**Component Testing and Iteration:**  
+- Every part of the robot went through unit testing and stress evaluation.  
+- We documented all observed limitations and iteratively improved sensor placement and code logic.  
+- Testing environments included both simulated and real-field trials.
+
+By overcoming major hurdles like sensor inconsistency, voltage fluctuations, and Lidar misreadings, we developed a system that is adaptive, stable, and ready to complete the mission using components we understand deeply. Our documentation, design, and testing reflect a clear engineering vision with flexibility and resilience at its core.
+
+In summary, the robot reflects a balance between innovation and practicality — leveraging what we have while adapting smartly to meet the demands of a complex and evolving challenge. Our engineering choices were made with precision, and the modular approach means the robot is easy to repair, extend, and reconfigure if necessary. We’re proud of its development and look forward to testing it further on the competition field.
 
