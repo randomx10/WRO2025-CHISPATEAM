@@ -32,8 +32,9 @@ Here you can see the full design of the vehicle from every angle. This detailed 
 
 ---
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
 
+  <!-- Row 1 -->
   <div style="text-align: center;">
     <img src="schemes/component1.jpeg" alt="LiPo Battery" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
     <p>LiPo Battery 1200mAh 12V</p>
@@ -49,6 +50,7 @@ Here you can see the full design of the vehicle from every angle. This detailed 
     <p>Limelight 3A</p>
   </div>
 
+  <!-- Row 2 -->
   <div style="text-align: center;">
     <img src="schemes/component4.jpeg" alt="Servo MG945" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
     <p>Servo MG945</p>
@@ -64,13 +66,14 @@ Here you can see the full design of the vehicle from every angle. This detailed 
     <p>LM2596 Voltage Regulator</p>
   </div>
 
+  <!-- Row 3 -->
   <div style="text-align: center;">
-    <img src="schemes/component7.jpeg" alt="HC-SR04 Ultrasonic Sensor" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
+    <img src="schemes/component7.jpeg" alt="HC-SR04 Sensor" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
     <p>HC-SR04 Ultrasonic Sensor</p>
   </div>
 
   <div style="text-align: center;">
-    <img src="schemes/component8.jpeg" alt="GY-251 Accelerometer" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
+    <img src="schemes/component8.jpeg" alt="GY-251 Gyroscope" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
     <p>GY-251 Gyroscope</p>
   </div>
 
@@ -79,6 +82,7 @@ Here you can see the full design of the vehicle from every angle. This detailed 
     <p>TCS3200 Color Sensor</p>
   </div>
 
+  <!-- Final Row (only 2 components, centered) -->
   <div style="text-align: center;">
     <img src="schemes/component11.webp" alt="L298N Motor Driver" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
     <p>L298N Motor Driver</p>
@@ -91,8 +95,6 @@ Here you can see the full design of the vehicle from every angle. This detailed 
 
 </div>
 
-
-</div>
 
 ---
 
