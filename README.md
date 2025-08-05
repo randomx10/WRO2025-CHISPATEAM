@@ -33,71 +33,116 @@ Here you can see the full design of the vehicle from every angle. This detailed 
 ---
 <h2 align="left">🧠 Electromechanical Components & Wiring</h2>
 
-<table>
+<table style="border-collapse: separate; border-spacing: 20px 30px;">
   <tr>
-    <td align="center" style="padding:15px;">
-      <div style="border:1px solid #ccc; border-radius:12px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1); padding:10px; width:240px;">
-        <img src="schemes/component1.jpeg" width="220" style="border-radius:12px;"><br>
-        <div style="background:#e8f0fe; border:1px solid #90aaff; border-radius:8px; padding:7px; margin-top:10px; font-weight:600; color:#333;">
+    <td align="center" style="vertical-align: top;">
+      <div style="border: 1px solid #ccc; border-radius: 12px; padding: 10px; width: 240px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+        <img src="schemes/component1.jpeg" width="220" style="border-radius: 12px; display: block; margin: 0 auto;">
+        <div style="background: #e8f0fe; border: 1px solid #90aaff; border-radius: 8px; padding: 8px; margin-top: 12px; font-weight: 600; color: #333; text-align: center;">
           LiPo Battery 1200mAh 12V
         </div>
       </div>
     </td>
 
-    <td align="center" style="padding:15px;">
-      <div style="border:1px solid #ccc; border-radius:12px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1); padding:10px; width:240px;">
-        <img src="schemes/component2.jpeg" width="220" style="border-radius:12px;"><br>
-        <div style="background:#e8f0fe; border:1px solid #90aaff; border-radius:8px; padding:7px; margin-top:10px; font-weight:600; color:#333;">
+    <td align="center" style="vertical-align: top;">
+      <div style="border: 1px solid #ccc; border-radius: 12px; padding: 10px; width: 240px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+        <img src="schemes/component2.jpeg" width="220" style="border-radius: 12px; display: block; margin: 0 auto;">
+        <div style="background: #e8f0fe; border: 1px solid #90aaff; border-radius: 8px; padding: 8px; margin-top: 12px; font-weight: 600; color: #333; text-align: center;">
           Raspberry Pi 4
         </div>
       </div>
     </td>
 
-    <td align="center" style="padding:15px;">
-      <div style="border:1px solid #ccc; border-radius:12px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1); padding:10px; width:240px;">
-        <img src="schemes/component3.jpeg" width="220" style="border-radius:12px;"><br>
-        <div style="background:#e8f0fe; border:1px solid #90aaff; border-radius:8px; padding:7px; margin-top:10px; font-weight:600; color:#333;">
+    <td align="center" style="vertical-align: top;">
+      <div style="border: 1px solid #ccc; border-radius: 12px; padding: 10px; width: 240px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+        <img src="schemes/component3.jpeg" width="220" style="border-radius: 12px; display: block; margin: 0 auto;">
+        <div style="background: #e8f0fe; border: 1px solid #90aaff; border-radius: 8px; padding: 8px; margin-top: 12px; font-weight: 600; color: #333; text-align: center;">
           Limelight 3A
         </div>
       </div>
     </td>
   </tr>
 
-  <!-- Repite la estructura para las demás filas -->
-
   <tr>
-    <td align="center" style="padding:15px;">
-      <div style="border:1px solid #ccc; border-radius:12px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1); padding:10px; width:240px;">
-        <img src="schemes/component4.jpeg" width="220" style="border-radius:12px;"><br>
-        <div style="background:#e8f0fe; border:1px solid #90aaff; border-radius:8px; padding:7px; margin-top:10px; font-weight:600; color:#333;">
+    <td align="center" style="vertical-align: top;">
+      <div style="border: 1px solid #ccc; border-radius: 12px; padding: 10px; width: 240px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+        <img src="schemes/component4.jpeg" width="220" style="border-radius: 12px; display: block; margin: 0 auto;">
+        <div style="background: #e8f0fe; border: 1px solid #90aaff; border-radius: 8px; padding: 8px; margin-top: 12px; font-weight: 600; color: #333; text-align: center;">
           Servo MG945
         </div>
       </div>
     </td>
 
-    <td align="center" style="padding:15px;">
-      <div style="border:1px solid #ccc; border-radius:12px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1); padding:10px; width:240px;">
-        <img src="schemes/component5.jpeg" width="220" style="border-radius:12px;"><br>
-        <div style="background:#e8f0fe; border:1px solid #90aaff; border-radius:8px; padding:7px; margin-top:10px; font-weight:600; color:#333;">
+    <td align="center" style="vertical-align: top;">
+      <div style="border: 1px solid #ccc; border-radius: 12px; padding: 10px; width: 240px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+        <img src="schemes/component5.jpeg" width="220" style="border-radius: 12px; display: block; margin: 0 auto;">
+        <div style="background: #e8f0fe; border: 1px solid #90aaff; border-radius: 8px; padding: 8px; margin-top: 12px; font-weight: 600; color: #333; text-align: center;">
           JGA25-370 Motor
         </div>
       </div>
     </td>
 
-    <td align="center" style="padding:15px;">
-      <div style="border:1px solid #ccc; border-radius:12px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1); padding:10px; width:240px;">
-        <img src="schemes/component6.jpeg" width="220" style="border-radius:12px;"><br>
-        <div style="background:#e8f0fe; border:1px solid #90aaff; border-radius:8px; padding:7px; margin-top:10px; font-weight:600; color:#333;">
+    <td align="center" style="vertical-align: top;">
+      <div style="border: 1px solid #ccc; border-radius: 12px; padding: 10px; width: 240px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+        <img src="schemes/component6.jpeg" width="220" style="border-radius: 12px; display: block; margin: 0 auto;">
+        <div style="background: #e8f0fe; border: 1px solid #90aaff; border-radius: 8px; padding: 8px; margin-top: 12px; font-weight: 600; color: #333; text-align: center;">
           LM2596 Regulator
         </div>
       </div>
     </td>
   </tr>
 
-  <!-- Continúa así con las demás filas -->
+  <tr>
+    <td align="center" style="vertical-align: top;">
+      <div style="border: 1px solid #ccc; border-radius: 12px; padding: 10px; width: 240px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+        <img src="schemes/component7.jpeg" width="220" style="border-radius: 12px; display: block; margin: 0 auto;">
+        <div style="background: #e8f0fe; border: 1px solid #90aaff; border-radius: 8px; padding: 8px; margin-top: 12px; font-weight: 600; color: #333; text-align: center;">
+          HC-SR04 Sensor
+        </div>
+      </div>
+    </td>
 
+    <td align="center" style="vertical-align: top;">
+      <div style="border: 1px solid #ccc; border-radius: 12px; padding: 10px; width: 240px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+        <img src="schemes/component8.jpeg" width="220" style="border-radius: 12px; display: block; margin: 0 auto;">
+        <div style="background: #e8f0fe; border: 1px solid #90aaff; border-radius: 8px; padding: 8px; margin-top: 12px; font-weight: 600; color: #333; text-align: center;">
+          GY-251 Gyroscope
+        </div>
+      </div>
+    </td>
+
+    <td align="center" style="vertical-align: top;">
+      <div style="border: 1px solid #ccc; border-radius: 12px; padding: 10px; width: 240px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+        <img src="schemes/component10.jpg" width="220" style="border-radius: 12px; display: block; margin: 0 auto;">
+        <div style="background: #e8f0fe; border: 1px solid #90aaff; border-radius: 8px; padding: 8px; margin-top: 12px; font-weight: 600; color: #333; text-align: center;">
+          TCS3200 Color Sensor
+        </div>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="vertical-align: top;">
+      <div style="border: 1px solid #ccc; border-radius: 12px; padding: 10px; width: 240px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+        <img src="schemes/component11.webp" width="220" style="border-radius: 12px; display: block; margin: 0 auto;">
+        <div style="background: #e8f0fe; border: 1px solid #90aaff; border-radius: 8px; padding: 8px; margin-top: 12px; font-weight: 600; color: #333; text-align: center;">
+          L298N Motor Driver
+        </div>
+      </div>
+    </td>
+
+    <td align="center" style="vertical-align: top;">
+      <div style="border: 1px solid #ccc; border-radius: 12px; padding: 10px; width: 240px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+        <img src="schemes/component12.webp" width="220" style="border-radius: 12px; display: block; margin: 0 auto;">
+        <div style="background: #e8f0fe; border: 1px solid #90aaff; border-radius: 8px; padding: 8px; margin-top: 12px; font-weight: 600; color: #333; text-align: center;">
+          3-Pin Switch
+        </div>
+      </div>
+    </td>
+
+    <td></td>
+  </tr>
 </table>
-
 
 
 ---
