@@ -19,6 +19,6 @@
   <tr>
     <td><img src="izquierda.jpeg" width="200"/></td>
     <td><img src="arriba.jpeg" width="200"/></td>
-    <td><img src="abajo.jpeg" width="200"/></td>
+    <td><img src="abajo1.jpeg" width="200"/></td>
   </tr>
 </table>
