@@ -34,20 +34,63 @@ Here you can see the full design of the vehicle from every angle. This detailed 
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
 
-  <img src="schemes/component1.jpeg" alt="Component 1" width="200"/>
-  <img src="schemes/component2.jpeg" alt="Component 2" width="200"/>
-  <img src="schemes/component3.jpeg" alt="Component 3" width="200"/>
+  <div style="text-align: center;">
+    <img src="schemes/component1.jpeg" alt="LiPo Battery" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
+    <p>LiPo Battery 1200mAh 12V</p>
+  </div>
 
-  <img src="schemes/component4.jpeg" alt="Component 4" width="200"/>
-  <img src="schemes/component5.jpeg" alt="Component 5" width="200"/>
-  <img src="schemes/component6.jpeg" alt="Component 6" width="200"/>
+  <div style="text-align: center;">
+    <img src="schemes/component2.jpeg" alt="Raspberry Pi 4" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
+    <p>Raspberry Pi 4</p>
+  </div>
 
-  <img src="schemes/component7.jpeg" alt="Component 7" width="200"/>
-  <img src="schemes/component8.jpeg" alt="Component 8" width="200"/>
-  <img src="schemes/component10.jpg" alt="Component 9" width="200"/>
+  <div style="text-align: center;">
+    <img src="schemes/component3.jpeg" alt="Limelight 3A" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
+    <p>Limelight 3A</p>
+  </div>
 
-  <img src="schemes/component11.webp" alt="Component 10" width="200"/>
-  <img src="schemes/component12.webp" alt="Component 11" width="200"/>
+  <div style="text-align: center;">
+    <img src="schemes/component4.jpeg" alt="Servo MG945" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
+    <p>Servo MG945</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="schemes/component5.jpeg" alt="JGA25-370 Motor" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
+    <p>JGA25-370 Motor</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="schemes/component6.jpeg" alt="LM2596 Regulator" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
+    <p>LM2596 Voltage Regulator</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="schemes/component7.jpeg" alt="HC-SR04 Ultrasonic Sensor" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
+    <p>HC-SR04 Ultrasonic Sensor</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="schemes/component8.jpeg" alt="GY-251 Accelerometer" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
+    <p>GY-251 Gyroscope</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="schemes/component10.jpg" alt="TCS3200 Color Sensor" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
+    <p>TCS3200 Color Sensor</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="schemes/component11.webp" alt="L298N Motor Driver" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
+    <p>L298N Motor Driver</p>
+  </div>
+
+  <div style="text-align: center;">
+    <img src="schemes/component12.webp" alt="3-Pin Switch" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
+    <p>3-Pin Switch</p>
+  </div>
+
+</div>
+
 
 </div>
 
