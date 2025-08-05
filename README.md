@@ -36,21 +36,31 @@ Here you can see the full design of the vehicle from every angle. This detailed 
 
 Below is a visual overview of the main electronic and mechanical components used in our vehicle:
 
-| Component 1 | Component 2 | Component 3 |
-|-------------|-------------|-------------|
-| ![](schemes/component1.jpeg) | ![](schemes/component2.jpeg) | ![](schemes/component3.jpeg) |
+<table>
+  <tr>
+    <td align="center"><img src="schemes/component1.jpeg" width="150"/></td>
+    <td align="center"><img src="schemes/component2.jpeg" width="150"/></td>
+    <td align="center"><img src="schemes/component3.jpeg" width="150"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="schemes/component4.jpeg" width="150"/></td>
+    <td align="center"><img src="schemes/component5.jpeg" width="150"/></td>
+    <td align="center"><img src="schemes/component6.jpeg" width="150"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="schemes/component7.jpeg" width="150"/></td>
+    <td align="center"><img src="schemes/component8.jpeg" width="150"/></td>
+    <td align="center"><img src="schemes/component10.jpg" width="150"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="schemes/component11.webp" width="150"/></td>
+    <td align="center"><img src="schemes/component12.webp" width="150"/></td>
+    <td align="center">—</td>
+  </tr>
+</table>
 
-| Component 4 | Component 5 | Component 6 |
-|-------------|-------------|-------------|
-| ![](schemes/component4.jpeg) | ![](schemes/component5.jpeg) | ![](schemes/component6.jpeg) |
+> 📸 All images above are real or representative examples of the parts we used in our robot.
 
-| Component 7 | Component 8 | Component 9 |
-|-------------|-------------|-------------|
-| ![](schemes/component7.jpeg) | ![](schemes/component8.jpeg) | ![](schemes/component10.jpg) |
-
-| Component 10 | Component 11 | Component 12 |
-|-------------|-------------|-------------|
-| ![](schemes/component11.webp) | ![](schemes/component12.webp) |
 
 > 📸 All images above are real or representative examples of the parts we used in our robot.
 
