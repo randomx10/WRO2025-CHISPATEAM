@@ -132,7 +132,7 @@ Our robot was built using a mix of modular components from an existing kit and c
 - Its high-speed processing capabilities allow us to manage simultaneous tasks like pathfinding, obstacle avoidance, and turn correction.  
 - Includes an external cooling fan and heat sinks to maintain optimal temperature during extended operations.
 
-**Arduino UNO**
+**Arduino MEGA**
 
 - Controls low-level tasks such as PWM motor control and real-time sensor readings (e.g., ultrasonic distance, servo movements).  
 - Acts as a reliable bridge for deterministic behavior in the hardware layer.  
