@@ -38,15 +38,15 @@ Here you can see the full design of the vehicle from every angle. This detailed 
   <tr>
     <td align="center">
       <img src="schemes/component1.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
-      <sub>LiPo Battery 1200mAh 12V</sub>
+      <div style="background:#f0f0f0; border:1px solid #ccc; border-radius:8px; padding:5px; width:180px;">LiPo Battery 1200mAh 12V</div>
     </td>
     <td align="center">
       <img src="schemes/component2.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
-      <sub>Raspberry Pi 4</sub>
+      <div style="background:#f0f0f0; border:1px solid #ccc; border-radius:8px; padding:5px; width:180px;">Raspberry Pi 4</div>
     </td>
     <td align="center">
       <img src="schemes/component3.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
-      <sub>Limelight 3A</sub>
+      <div style="background:#f0f0f0; border:1px solid #ccc; border-radius:8px; padding:5px; width:180px;">Limelight 3A</div>
     </td>
   </tr>
 
@@ -54,15 +54,15 @@ Here you can see the full design of the vehicle from every angle. This detailed 
   <tr>
     <td align="center">
       <img src="schemes/component4.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
-      <sub>Servo MG945</sub>
+      <div style="background:#f0f0f0; border:1px solid #ccc; border-radius:8px; padding:5px; width:180px;">Servo MG945</div>
     </td>
     <td align="center">
       <img src="schemes/component5.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
-      <sub>JGA25-370 Motor</sub>
+      <div style="background:#f0f0f0; border:1px solid #ccc; border-radius:8px; padding:5px; width:180px;">JGA25-370 Motor</div>
     </td>
     <td align="center">
       <img src="schemes/component6.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
-      <sub>LM2596 Regulator</sub>
+      <div style="background:#f0f0f0; border:1px solid #ccc; border-radius:8px; padding:5px; width:180px;">LM2596 Regulator</div>
     </td>
   </tr>
 
@@ -70,31 +70,32 @@ Here you can see the full design of the vehicle from every angle. This detailed 
   <tr>
     <td align="center">
       <img src="schemes/component7.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
-      <sub>HC-SR04 Sensor</sub>
+      <div style="background:#f0f0f0; border:1px solid #ccc; border-radius:8px; padding:5px; width:180px;">HC-SR04 Sensor</div>
     </td>
     <td align="center">
       <img src="schemes/component8.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
-      <sub>GY-251 Gyroscope</sub>
+      <div style="background:#f0f0f0; border:1px solid #ccc; border-radius:8px; padding:5px; width:180px;">GY-251 Gyroscope</div>
     </td>
     <td align="center">
       <img src="schemes/component10.jpg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
-      <sub>TCS3200 Color Sensor</sub>
+      <div style="background:#f0f0f0; border:1px solid #ccc; border-radius:8px; padding:5px; width:180px;">TCS3200 Color Sensor</div>
     </td>
   </tr>
 
-  <!-- Última fila con 2 imágenes -->
+  <!-- Fila 4 -->
   <tr>
     <td align="center">
       <img src="schemes/component11.webp" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
-      <sub>L298N Motor Driver</sub>
+      <div style="background:#f0f0f0; border:1px solid #ccc; border-radius:8px; padding:5px; width:180px;">L298N Motor Driver</div>
     </td>
     <td align="center">
       <img src="schemes/component12.webp" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
-      <sub>3-Pin Switch</sub>
+      <div style="background:#f0f0f0; border:1px solid #ccc; border-radius:8px; padding:5px; width:180px;">3-Pin Switch</div>
     </td>
-    <td></td> <!-- celda vacía para alinear a la izquierda -->
+    <td></td>
   </tr>
 </table>
+
 
 
 ---
