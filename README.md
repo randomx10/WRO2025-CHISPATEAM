@@ -31,69 +31,70 @@ Here you can see the full design of the vehicle from every angle. This detailed 
 
 
 ---
+<h2 align="center">🧠 Electromechanical Components & Wiring</h2>
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+<table align="center">
+  <!-- Fila 1 -->
+  <tr>
+    <td align="center">
+      <img src="schemes/component1.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
+      <sub>LiPo Battery 1200mAh 12V</sub>
+    </td>
+    <td align="center">
+      <img src="schemes/component2.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
+      <sub>Raspberry Pi 4</sub>
+    </td>
+    <td align="center">
+      <img src="schemes/component3.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
+      <sub>Limelight 3A</sub>
+    </td>
+  </tr>
 
-  <!-- Row 1 -->
-  <div style="text-align: center;">
-    <img src="schemes/component1.jpeg" alt="LiPo Battery" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
-    <p>LiPo Battery 1200mAh 12V</p>
-  </div>
+  <!-- Fila 2 -->
+  <tr>
+    <td align="center">
+      <img src="schemes/component4.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
+      <sub>Servo MG945</sub>
+    </td>
+    <td align="center">
+      <img src="schemes/component5.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
+      <sub>JGA25-370 Motor</sub>
+    </td>
+    <td align="center">
+      <img src="schemes/component6.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
+      <sub>LM2596 Regulator</sub>
+    </td>
+  </tr>
 
-  <div style="text-align: center;">
-    <img src="schemes/component2.jpeg" alt="Raspberry Pi 4" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
-    <p>Raspberry Pi 4</p>
-  </div>
+  <!-- Fila 3 -->
+  <tr>
+    <td align="center">
+      <img src="schemes/component7.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
+      <sub>HC-SR04 Sensor</sub>
+    </td>
+    <td align="center">
+      <img src="schemes/component8.jpeg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
+      <sub>GY-251 Gyroscope</sub>
+    </td>
+    <td align="center">
+      <img src="schemes/component10.jpg" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
+      <sub>TCS3200 Color Sensor</sub>
+    </td>
+  </tr>
 
-  <div style="text-align: center;">
-    <img src="schemes/component3.jpeg" alt="Limelight 3A" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
-    <p>Limelight 3A</p>
-  </div>
-
-  <!-- Row 2 -->
-  <div style="text-align: center;">
-    <img src="schemes/component4.jpeg" alt="Servo MG945" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
-    <p>Servo MG945</p>
-  </div>
-
-  <div style="text-align: center;">
-    <img src="schemes/component5.jpeg" alt="JGA25-370 Motor" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
-    <p>JGA25-370 Motor</p>
-  </div>
-
-  <div style="text-align: center;">
-    <img src="schemes/component6.jpeg" alt="LM2596 Regulator" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
-    <p>LM2596 Voltage Regulator</p>
-  </div>
-
-  <!-- Row 3 -->
-  <div style="text-align: center;">
-    <img src="schemes/component7.jpeg" alt="HC-SR04 Sensor" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
-    <p>HC-SR04 Ultrasonic Sensor</p>
-  </div>
-
-  <div style="text-align: center;">
-    <img src="schemes/component8.jpeg" alt="GY-251 Gyroscope" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
-    <p>GY-251 Gyroscope</p>
-  </div>
-
-  <div style="text-align: center;">
-    <img src="schemes/component10.jpg" alt="TCS3200 Color Sensor" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
-    <p>TCS3200 Color Sensor</p>
-  </div>
-
-  <!-- Final Row (only 2 components, centered) -->
-  <div style="text-align: center;">
-    <img src="schemes/component11.webp" alt="L298N Motor Driver" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
-    <p>L298N Motor Driver</p>
-  </div>
-
-  <div style="text-align: center;">
-    <img src="schemes/component12.webp" alt="3-Pin Switch" width="200" style="border: 1px solid #ccc; border-radius: 10px; padding: 5px;">
-    <p>3-Pin Switch</p>
-  </div>
-
-</div>
+  <!-- Última fila con 2 imágenes centradas -->
+  <tr>
+    <td></td> <!-- celda vacía para centrar -->
+    <td align="center">
+      <img src="schemes/component11.webp" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
+      <sub>L298N Motor Driver</sub>
+    </td>
+    <td align="center">
+      <img src="schemes/component12.webp" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
+      <sub>3-Pin Switch</sub>
+    </td>
+  </tr>
+</table>
 
 
 ---
