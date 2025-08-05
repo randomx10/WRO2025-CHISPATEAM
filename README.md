@@ -88,18 +88,13 @@ Here you can see the full design of the vehicle from every angle. This detailed 
       <img src="schemes/component12.webp" width="220" style="border-radius:12px;"><br>
       <b>TCS3200 Color Sensor</b>
     </td>
-    <td></td>
-  </tr>
-
-  <tr>
     <td align="center">
       <img src="schemes/component13.jpeg" width="220" style="border-radius:12px;"><br>
       <b>Arduino Mega</b>
     </td>
-    <td></td>
-    <td></td>
   </tr>
 </table>
+
 
 ---
 
