@@ -288,9 +288,9 @@ In this section, you will find the 3D printed components that were essential to 
 <table>
   <tr>
     <td align="center">
-      <img src="3dprints/limelight_mount.jpeg" width="220" style="border-radius:12px;"><br>
-      <b>Limelight Vision Mount</b><br>
-      One of the most important printed pieces is the mount for the Limelight camera. We designed it to keep the vision system stable and in the right position to detect reflective tape and track targets efficiently. The angle was carefully adjusted to increase field of view and reduce blind spots. It’s lightweight but solid enough to hold the camera steady, even during fast movements. This improvement helped us gain more accuracy in autonomous mode and align much better with our objectives.
+      <img src="models/limelight_mount.png" width="220" style="border-radius:12px;"><br>
+      <b>Limelight Mount</b><br>
+      One of the most important printed pieces is the mount for the Limelight camera. We designed it to keep the vision system stable and in the right position to detect the traffic signals and track targets efficiently. The angle was carefully adjusted to increase field of view and reduce blind spots. It’s lightweight but solid enough to hold the camera steady, even during fast movements. This improvement helped us gain more accuracy and align much better with our objectives.
     </td>
     <td align="center">
       <img src="3dprints/top_frame_mount.jpeg" width="220" style="border-radius:12px;"><br>
