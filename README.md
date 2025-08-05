@@ -31,9 +31,9 @@ Here you can see the full design of the vehicle from every angle. This detailed 
 
 
 ---
-<h2 align="center">🧠 Electromechanical Components & Wiring</h2>
+<h2 align="left">🧠 Electromechanical Components & Wiring</h2>
 
-<table align="center">
+<table>
   <!-- Fila 1 -->
   <tr>
     <td align="center">
@@ -82,9 +82,8 @@ Here you can see the full design of the vehicle from every angle. This detailed 
     </td>
   </tr>
 
-  <!-- Última fila con 2 imágenes centradas -->
+  <!-- Última fila con 2 imágenes -->
   <tr>
-    <td></td> <!-- celda vacía para centrar -->
     <td align="center">
       <img src="schemes/component11.webp" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
       <sub>L298N Motor Driver</sub>
@@ -93,6 +92,7 @@ Here you can see the full design of the vehicle from every angle. This detailed 
       <img src="schemes/component12.webp" width="180" style="border:1px solid #ccc; border-radius:10px;"><br>
       <sub>3-Pin Switch</sub>
     </td>
+    <td></td> <!-- celda vacía para alinear a la izquierda -->
   </tr>
 </table>
 
