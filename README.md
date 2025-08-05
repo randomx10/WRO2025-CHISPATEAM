@@ -1,4 +1,4 @@
-# Chispas team – WRO 2025 Project
+# CHISPA team – WRO 2025
 
 Welcome to the official repository of the **Chispas team**!  
 This space contains all the resources, schematics, models, photos, and code developed for our participation in the **Future Engineers** challenge at the **World Robot Olympiad 2025**.
