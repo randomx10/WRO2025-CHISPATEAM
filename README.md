@@ -90,6 +90,15 @@ Here you can see the full design of the vehicle from every angle. This detailed 
     </td>
     <td></td>
   </tr>
+
+  <tr>
+    <td align="center">
+      <img src="schemes/component13.jpeg" width="220" style="border-radius:12px;"><br>
+      <b>Arduino Mega</b>
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
 
 ---
@@ -108,7 +117,7 @@ Below is the full electromechanical schematic that shows how everything is conne
 
 Our robot was built using a mix of modular components from an existing kit and custom-designed 3D printed parts to fit the needs of the Future Engineers challenge. This hybrid approach allowed us to maximize the strengths of reliable, pre-tested hardware while also tailoring specific solutions for unique tasks in the mission. Below is a highly detailed breakdown of all the components we used, their technical roles, the integration logic, issues we faced, and how we adapted to overcome them. Our documentation not only reflects the functionality of each part, but also highlights the engineering decisions made throughout the robot’s development.
 
-### 🔋 Power Supply | ![](schemes/component1.jpeg) |
+### 🔋 Power Supply 
 
 **LiPo Battery 1200mAh 12V**
 
