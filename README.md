@@ -278,3 +278,30 @@ By overcoming major hurdles like sensor inconsistency, voltage fluctuations, and
 
 In summary, the robot reflects a balance between innovation and practicality — leveraging what we have while adapting smartly to meet the demands of a complex and evolving challenge. Our engineering choices were made with precision, and the modular approach means the robot is easy to repair, extend, and reconfigure if necessary. We’re proud of its development and look forward to testing it further on the competition field.
 
+
+<h2 align="left">🧩 3D Printed Parts</h2>
+
+<p>
+In this section, you will find the 3D printed components that were essential to the design and functionality of our robot. These pieces were specifically created to optimize vision and structural support while keeping the overall weight of the robot low and ensuring precise alignment of key systems.
+</p>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="3dprints/limelight_mount.jpeg" width="220" style="border-radius:12px;"><br>
+      <b>Limelight Vision Mount</b><br>
+      One of the most important printed pieces is the mount for the Limelight camera. We designed it to keep the vision system stable and in the right position to detect reflective tape and track targets efficiently. The angle was carefully adjusted to increase field of view and reduce blind spots. It’s lightweight but solid enough to hold the camera steady, even during fast movements. This improvement helped us gain more accuracy in autonomous mode and align much better with our objectives.
+    </td>
+    <td align="center">
+      <img src="3dprints/top_frame_mount.jpeg" width="220" style="border-radius:12px;"><br>
+      <b>Top Chassis Support</b><br>
+      This structural support is placed on the top part of the chassis and was designed to hold sensors, wiring, and additional modules in place. One of the main goals was to improve the internal layout of the robot, keeping everything organized and making maintenance easier. It also adds an extra layer of protection to the internal electronics. This part was printed using strong filament to ensure rigidity and durability, without affecting the balance of the robot.
+    </td>
+  </tr>
+</table>
+
+<p>
+Both of these components were modeled in CAD software and tested through multiple iterations before reaching the final versions. The printing process took several hours for each, but the result was worth the effort, as they improved our performance significantly during testing and competition.
+</p>
+
+
