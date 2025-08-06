@@ -152,16 +152,8 @@ The robot's senses, crucial for understanding its environment and navigating the
 
     * **Solution:** Performed extensive **calibration trials** under consistent lighting; replaced the malfunctioning unit with a higher-quality clone.
 
-  **Accuracy Reference (sourced from online comparative tests):**
-
-  | **Color** | **Accuracy (%)** | 
-  | Red | 92% | 
-  | Green | 89% | 
-  | Blue | 94% | 
-  | Yellow | 87% | 
-  | Orange | 96% | 
-  | White | 91% | 
-  | Black | 88% | 
+  **Accuracy Reference (sourced from our own research):**
+<img width="1653" height="993" alt="Graph1" src="https://github.com/user-attachments/assets/ca3336f3-177f-4590-8d35-4b9c72a11732" />
 
 
 ## 🔌 Power & Regulation
