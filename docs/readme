@@ -238,5 +238,3 @@ Our robot was developed for the WRO 2025 Future Engineers Challenge, which requi
 By meticulously overcoming major hurdles like sensor inconsistency, voltage fluctuations, and Lidar misreadings, we developed a system that is **adaptive, stable, and highly capable** of completing the mission. Our documentation, design, and testing reflect a clear engineering vision with flexibility and resilience at its core.
 
 Project Rover embodies a balance between innovation and practicality — leveraging existing resources while smartly adapting to meet the demands of a complex and evolving challenge. Our engineering choices were made with precision, and the modular approach ensures the robot is easy to repair, extend, and reconfigure if necessary. We’re proud of its development and look forward to its performance on the competition field!
-
-*(Consider adding a section here for "Future Enhancements" or "How to Contribute" if this is an open-source project.)*
