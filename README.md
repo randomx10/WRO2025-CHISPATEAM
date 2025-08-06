@@ -132,7 +132,6 @@ Our robot was built using a mix of modular components from an existing kit and c
 - Responsible for image processing, decision-making logic, and managing sensor data.  
 - Runs Python scripts to interpret input from the Limelight and communicates with the Arduino through a serial interface.  
 - Its high-speed processing capabilities allow us to manage simultaneous tasks like pathfinding, obstacle avoidance, and turn correction.  
-- Includes an external cooling fan and heat sinks to maintain optimal temperature during extended operations.
 
 **Arduino MEGA**
 
@@ -175,17 +174,17 @@ Our robot was built using a mix of modular components from an existing kit and c
 
 - Dual H-Bridge driver that allows for direction control and PWM-based speed adjustment.  
 - Initial controller suffered overheating; L298N offered a robust and thermally safer alternative.  
-- Equipped with a built-in heat sink and external fan to improve heat dissipation.
+- Equipped with a built-in heat sink to improve heat dissipation as this controller gets hot quickly.
 
 **JGA25-370 Gear Motors**
 
-- Provide strong torque and reliable performance, especially during turns and ramp climbs.  
+- Provides strong torque and reliable performance, especially during turns and ramp climbs.  
 - Compatible with our power source and robust enough for repeated high-load operations.  
 - Low RPM ensures accurate control in precision-based movement challenges.
 
 **Servo MG945**
 
-- Handles mechanical arm or gate-style components used to interact with physical game elements.  
+- Handles the turning of the robot left/right.
 - Durable metal gears ensure precision and long operational lifespan.  
 - Integrated with custom 3D-printed brackets to prevent misalignment and slippage.
 
@@ -215,7 +214,7 @@ Our robot was built using a mix of modular components from an existing kit and c
 - Another sensor misidentified multiple colors and only read orange with high confidence.  
 - Calibration trials under consistent lighting; replaced the malfunctioning unit with a higher-quality clone.
 
-**Accuracy Reference (sourced from online comparative tests):**
+**Accuracy Reference (sourced from mixed data):**
 
 | Color  | Accuracy (%) |
 |--------|--------------|
