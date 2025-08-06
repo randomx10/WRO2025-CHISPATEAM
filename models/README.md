@@ -19,8 +19,7 @@ In this directory, you will find the 3D printed components that were essential t
   </tr>
 </table>
 
-<p>
-Click on any item to see its model animation.
-</p>
+<h1 align="center">Click on any .stl file to see its model animation.</h1>
+
 
 <p>
