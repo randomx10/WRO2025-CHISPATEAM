@@ -226,6 +226,8 @@ Our robot was built using a mix of modular components from an existing kit and c
 | White  | 91%          |
 | Black  | 88%          |
 
+## (see [docs](https://github.com/randomx10/WRO2025-CHISPATEAM/tree/main/docs) for more information)
+
 ### 🔌 Power & Regulation
 
 **LM2596 Voltage Regulator**
