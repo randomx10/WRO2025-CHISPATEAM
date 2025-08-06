@@ -32,8 +32,8 @@ The backbone of our robot's operation, ensuring consistent power delivery to all
 
   * **Integration Logic:** Provides stable power output for motors, sensors, Raspberry Pi, and Arduino.
 
-  * **Key Feature:** Integrated a **voltage regulator** to prevent current spikes and protect delicate components.
-
+  * **Key Feature:** We Integrated a **voltage regulator** to prevent current spikes and protect delicate components, it is the LM2596 which provides us with stable 12V to 5V for the raspberry pi, arduino, servo and sensors.
+ 
   * **Issue & Solution:** Mitigated early issues of sudden shutdowns during intensive operations. A **battery monitor** was incorporated for real-time voltage measurement and low-level alerts.
 
 ## 💻 Main Controllers
@@ -54,7 +54,7 @@ The brains and brawn, orchestrating high-level decision-making and low-level har
 
   * **Role:** Controls low-level tasks such as **PWM motor control** and **real-time sensor readings** (e.g., ultrasonic distance, servo movements).
 
-  * **Integration Logic:** Acts as a reliable bridge for deterministic behavior in the hardware layer.
+  * **Integration Logic:** Acts as a reliable bridge for deterministic behavior in the hardware layer such as the drivetrain itself (servomotor and engine).
 
   * **Benefits:** Division of responsibilities with the Pi balances computational load and reduces latency. Simplifies hardware debugging and guarantees fast, responsive control signals.
 
@@ -86,11 +86,11 @@ An initial consideration for environmental mapping that was ultimately replaced.
 
   * **Why We Stopped Using It:**
 
-    * Provided unstable and inconsistent results in small, confined spaces.
+    * Provided unstable and inconsistent results in small, confined spaces (the LIDAR worked better in way more open fields up to 12m).
 
-    * Difficulty detecting nearby walls and objects due to reflection noise.
+    * Difficulty detecting nearby walls and objects due to reflection noise (plots randomly appeared and then stopped appearing after a second or two, making it impossible to do multiple sampling).
 
-    * Calibration proved time-consuming, and performance did not justify the complexity.
+    * Calibration proved time-consuming, and performance did not justify the complexity and time required to get it working.
 
   * **Our Solution:** Replaced with strategically placed **ultrasonic sensors** and a reliable **gyroscope** to manage spatial awareness with much greater efficiency. This switch significantly improved consistency and reduced computational load.
 
@@ -102,17 +102,17 @@ Driving the robot's movement with precision and power.
 
   * **Role:** Dual H-Bridge driver allowing for **direction control** and **PWM-based speed adjustment**.
 
-  * **Issue & Solution:** Initial controller suffered overheating; the L298N offered a robust and thermally safer alternative. Equipped with a **built-in heat sink** and **external fan** to improve heat dissipation.
+  * **Issue & Solution:** Initial controller suffered overheating; the L298N offered a robust and thermally safer alternative. Equipped with a **built-in heat sink** to improve heat dissipation.
 
 * **JGA25-370 Gear Motors**
 
-  * **Role:** Provide strong torque and reliable performance, especially during turns and ramp climbs.
+  * **Role:** Provide strong torque and reliable performance, especially during turns and ramp climbs (**yes, this is a problem at regionals, theres quite literally speedbumps**).
 
-  * **Features:** Compatible with our power source and robust enough for repeated high-load operations. Low RPM ensures accurate control in precision-based movement challenges.
+  * **Features:** Compatible with our power source and robust enough for repeated high-load operations. High RPM ensures a lot of speed and the integrated encoder ensures accurate control in precision-based movement challenges such as the obstacle round.
 
 * **Servo MG945**
 
-  * **Role:** Handles mechanical arm or gate-style components used to interact with physical game elements.
+  * **Role:** Handles the system that allows the car to turn left/right.
 
   * **Features:** Durable metal gears ensure precision and a long operational lifespan.
 
@@ -163,7 +163,6 @@ The robot's senses, crucial for understanding its environment and navigating the
   | White | 91% | 
   | Black | 88% | 
 
-  *(Consider adding a simple bar chart here to visualize the accuracy percentages if you have the tools to generate one.)*
 
 ## 🔌 Power & Regulation
 
@@ -237,4 +236,4 @@ Our robot was developed for the WRO 2025 Future Engineers Challenge, which requi
 
 By meticulously overcoming major hurdles like sensor inconsistency, voltage fluctuations, and Lidar misreadings, we developed a system that is **adaptive, stable, and highly capable** of completing the mission. Our documentation, design, and testing reflect a clear engineering vision with flexibility and resilience at its core.
 
-Project Rover embodies a balance between innovation and practicality — leveraging existing resources while smartly adapting to meet the demands of a complex and evolving challenge. Our engineering choices were made with precision, and the modular approach ensures the robot is easy to repair, extend, and reconfigure if necessary. We’re proud of its development and look forward to its performance on the competition field!
+Project CHISPA embodies a balance between innovation and practicality — leveraging existing resources while smartly adapting to meet the demands of a complex and evolving challenge. Our engineering choices were made with precision, and the modular approach ensures the robot is easy to repair, extend, and reconfigure if necessary. We’re proud of its development and look forward to its performance on the competition field!
