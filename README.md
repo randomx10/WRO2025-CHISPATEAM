@@ -329,8 +329,8 @@ Both of these components were modeled in CAD software and tested through multipl
 > but WITHOUT ANY WARRANTY; without even the implied warranty of
 > MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 > If any portion of this program is to be used in any other application, you must
-> credit the respective authors and provide a copy of the AGPL 3.0 License
-> More information on LICENSE.
+> credit the respective authors and provide a copy of the AGPL 3.0 License.
+> [More information on LICENSE.](https://github.com/randomx10/WRO2025-CHISPATEAM/blob/main/LICENSE)
 > 
 
 
