@@ -19,7 +19,7 @@ Below are two images that reflect our team’s identity:
 
 ---
 
-# 💻 Github folder structure/overview
+## 💻 Github folder structure/overview
 ```
 🛜 WRO2025-CHISPATEAM
 ├── 📁 IMG # Images for internal use of the github
