@@ -323,4 +323,14 @@ In this section, you will find the 3D printed components that were essential to 
 Both of these components were modeled in CAD software and tested through multiple iterations before reaching the final versions. The printing process took several hours for each, but the result was worth the effort, as they improved our performance significantly during testing and competition.
 </p>
 
+> [!WARNING]
+>
+> This program is distributed in the hope that it will be useful,
+> but WITHOUT ANY WARRANTY; without even the implied warranty of
+> MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+> If any portion of this program is to be used in any other application, you must
+> credit the respective authors and provide a copy of the AGPL 3.0 License
+> More information on LICENSE.
+> 
+
 
