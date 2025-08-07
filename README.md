@@ -19,6 +19,22 @@ Below are two images that reflect our team’s identity:
 
 ---
 
+# 💻 Github folder structure/overview
+```
+🛜 WRO2025-CHISPATEAM
+├── 📁 IMG # Images for internal use of the github
+├── 📁 docs # Explanation of components/hardware/software
+├── 📁 models # 3D parts ready to print
+├── 📁 schemes # Schematic diagram of the robot, along with individual component images
+├── 📁 src # Source code that powers the robot controllers
+├── 📁 t-photos # Team pictures, the funny one and the official
+├── 📁 v-photos # All angles of the robot
+├── 📁 video # Videos of the robot preforming competition rounds
+├── 📄 README.md # Introduction
+├── 📄 LICENSE # AGPL 3.0 License Copy, prohibiting copy on other repositories without crediting the respective authors.
+├── 📄 equipochis.jpeg # Official team image
+```
+---
 ## 🚗 Vehicle View
 
 Here you can see the full design of the vehicle from every angle. This detailed view helps to understand the layout of components and overall structure.
