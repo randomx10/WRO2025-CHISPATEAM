@@ -5,7 +5,10 @@
 Welcome to the official repository of the **CHISPA team**!  
 This space contains all the resources, schematics, models, photos, and code developed for our participation in the **Future Engineers** challenge at the **World Robot Olympiad 2025**.
 
-Here you’ll find detailed information about the design, functionality, and technical documentation of our autonomous vehicle.
+>[!INFO]
+>
+>Here you’ll find detailed information about the design, functionality, and technical documentation of our autonomous vehicle.
+>
 
 ---
 
