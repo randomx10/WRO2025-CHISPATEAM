@@ -7,7 +7,7 @@
     <th>Back</th>
   </tr>
   <tr>
-    <td><img src="front1.jpg" width="200"/></td>
+    <td><img src="front.jpg" width="200"/></td>
     <td><img src="right.jpg" width="200"/></td>
     <td><img src="back.jpg" width="200"/></td>
   </tr>
