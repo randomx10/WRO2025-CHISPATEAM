@@ -328,20 +328,36 @@ Both of these components were modeled in CAD software and tested through multipl
 
 
 
+## 🎯 Competition Challenges
 
+<table align="center" border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <!-- Open Challenge card -->
+    <td valign="top" width="360">
+      <div>🔗 Open Challenge</div>
+      <div align="center">
+        <img src="IMG/logoequip.jpg" alt="Open Challenge - image" width="280">
+      </div>
+      <div align="center">
+        <a href="https://www.youtube.com/watch?v=e4CDzBtp_W8">Watch Open Challenge Round</a>
+      </div>
+    </td>
 
-<!-- Obstacle Challenge card -->
-<td>
-  <div align="left">
-    <span>🔗 Obstacle Challenge</span>
-  </div>
-  <div>
-    <img src="IMG/logoequip.jpg" alt="Obstacle Challenge - image" width="280">
-  </div>
-  <div align="center">
-    <a href="https://www.youtube.com/watch?v=VIDEO_ID_OBS">Watch Obstacle Challenge Round</a>
-  </div>
-</td>
+<table align="center" border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <!-- Open Challenge card -->
+    <td valign="top" width="360">
+      <div>🔗 Open Challenge</div>
+      <div align="center">
+        <img src="IMG/logoequip.jpg" alt="Open Challenge - image" width="280">
+      </div>
+      <div align="center">
+        <a href="https://www.youtube.com/watch?v=e4CDzBtp_W8">Watch Open Challenge Round</a>
+      </div>
+    </td>
+
+   
+    
 
 
 
