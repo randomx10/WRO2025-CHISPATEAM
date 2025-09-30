@@ -327,7 +327,6 @@ Both of these components were modeled in CAD software and tested through multipl
 </p>
 
 
-
 ## 🎯 Competition Challenges
 
 <table align="center" border="1" cellspacing="0" cellpadding="8">
@@ -342,7 +341,8 @@ Both of these components were modeled in CAD software and tested through multipl
         <a href="https://www.youtube.com/watch?v=e4CDzBtp_W8">Watch Open Challenge Round</a>
       </div>
     </td>
-
+  </tr>
+</table>
 
    
     
