@@ -326,6 +326,44 @@ In this section, you will find the 3D printed components that were essential to 
 Both of these components were modeled in CAD software and tested through multiple iterations before reaching the final versions. The printing process took several hours for each, but the result was worth the effort, as they improved our performance significantly during testing and competition.
 </p>
 
+
+## 3 vueltas y obstáculos
+
+<!-- Vuelta 1 -->
+<p align="center" width="100%">
+  <img src="PHOTO_URL_1" alt="Vuelta 1 - foto" width="65%"><br>
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID_1">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_1/hqdefault.jpg" alt="Vuelta 1 - video" width="65%">
+  </a>
+</p>
+
+<!-- Vuelta 2 -->
+<p align="center" width="100%">
+  <img src="PHOTO_URL_2" alt="Vuelta 2 - foto" width="65%"><br>
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID_2">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_2/hqdefault.jpg" alt="Vuelta 2 - video" width="65%">
+  </a>
+</p>
+
+<!-- Vuelta 3 -->
+<p align="center" width="100%">
+  <img src="PHOTO_URL_3" alt="Vuelta 3 - foto" width="65%"><br>
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID_3">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_3/hqdefault.jpg" alt="Vuelta 3 - video" width="65%">
+  </a>
+</p>
+
+<!-- Obstáculos -->
+<p align="center" width="100%">
+  <img src="PHOTO_URL_4" alt="Obstáculos - foto" width="65%"><br>
+  <a href="https://www.youtube.com/watch?v=VIDEO_ID_4">
+    <img src="https://img.youtube.com/vi/VIDEO_ID_4/hqdefault.jpg" alt="Obstáculos - video" width="65%">
+  </a>
+</p>
+
+
+
+
 > [!WARNING]
 >
 > This program is distributed in the hope that it will be useful,
