@@ -8,8 +8,8 @@
   </tr>
   <tr>
     <td><img src="portada.jpeg" width="200"/></td>
-    <td><img src="derecha.jpeg" width="200"/></td>
-    <td><img src="trasera.jpeg" width="200"/></td>
+    <td><img src="right.jpg" width="200"/></td>
+    <td><img src="back.jpg" width="200"/></td>
   </tr>
   <tr>
     <th>Left</th>
@@ -17,8 +17,8 @@
     <th>Bottom</th>
   </tr>
   <tr>
-    <td><img src="izquierda.jpeg" width="200"/></td>
-    <td><img src="arriba.jpeg" width="200"/></td>
-    <td><img src="abajo1.jpeg" width="200"/></td>
+    <td><img src="left.jpg" width="200"/></td>
+    <td><img src="top.jpg" width="200"/></td>
+    <td><img src="bottom.jpg" width="200"/></td>
   </tr>
 </table>
