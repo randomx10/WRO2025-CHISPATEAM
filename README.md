@@ -38,6 +38,7 @@ Below are two images that reflect our team’s identity:
 ├── 📄 equipochis.jpeg # Official team image
 ```
 ---
+
 ## 🚗 Vehicle View
 
 Here you can see the full design of the vehicle from every angle. This detailed view helps to understand the layout of components and overall structure.
@@ -118,6 +119,61 @@ Here you can see the full design of the vehicle from every angle. This detailed 
 
 
 ---
+
+### Challenge Overview
+The WRO 2025 Future Engineers category challenges student teams to design, build, and program a fully autonomous vehicle capable of navigating a dynamic and randomized racetrack. This vehicle must use sensors, computer vision, and advanced control algorithms to complete multiple laps with high precision. The challenge concludes with a demanding parallel parking maneuver requiring accuracy and control within a confined space 🚗🤖.
+
+### Competition Format
+- 🏁 **Open Challenge:** Complete three laps on a track featuring randomly placed inner walls. The vehicle should maintain stable trajectory control, demonstrating robustness and consistent performance throughout.  
+- 🚦 **Obstacle Challenge:** Complete three laps while detecting and reacting to randomly placed red and green traffic markers:  
+  - 🟥 Red markers require the vehicle to keep to the right side of the lane.  
+  - 🟩 Green markers require the vehicle to keep to the left side of the lane.  
+  Upon finishing these laps, the vehicle must locate the designated parking zone and execute a precise parallel parking maneuver within limited space 📐.  
+- 📑 **Documentation:** Teams must maintain a public repository documenting all aspects of their engineering process, vehicle design, software development decisions, and source code. This provides transparency and demonstrates reproducibility and improved learning.
+
+### Scoring & Evaluation
+Judging is based on the following criteria:  
+- **Precision:** Accuracy in lap completion, obstacle handling, and parking.  
+- **Technical quality:** Clarity, organization, and completeness of project documentation and source code.  
+- **Speed:** Total time to complete the challenge, balanced against precision.  
+- **Innovation and robustness:** Judges value effective engineering decisions, software reliability, and creative solutions that enhance autonomous performance 💡⚙️.
+
+### Robot Performance: Speed and Maneuvering
+Our vehicle's average velocity on straight sections is approximately **1.2 meters per second**, enabling fast and stable lap completion. In contrast, during turns and cornering maneuvers, the speed reduces to about **1.7 meters per second** on average to ensure stable handling and precise navigation. The control algorithm dynamically adapts motor power and steering angles based on sensor feedback, maintaining optimal traction and avoiding drift even in tight curves.
+
+---
+
+### Key Components
+
+| Component                 | Description                                                |
+|---------------------------|------------------------------------------------------------|
+| **Arduino Nano ESP32**    | High-performance microcontroller for sensor and motor control |
+| **OpenMV H7 Camera**      | Embedded vision sensor for traffic signal and obstacle detection |
+| **HC-SR04 Ultrasonic Sensors (3x)** | For proximity sensing and wall following                        |
+| **MG90S Servo Motor**     | Steering actuator with high torque and precise control    |
+| **Pololu 30:1 Gearmotor** | Drive motor providing balanced speed and torque           |
+| **IFX9201SG Motor Driver**| Efficient PWM motor driver with built-in protections      |
+| **Li-Po Battery (7.4V, 300mAh)** | Compact power source optimized for duration and weight           |
+| **3D-Printed Chassis**    | Lightweight, custom mechanical structure                   |
+
+### Strengths and Innovations
+- **Advanced vision processing:** Real-time color and shape detection for robust environment understanding.  
+- **Precise sensor fusion:** Combining data from IMU, ultrasonic sensors, and camera enables stable navigation under varying conditions.  
+- **Dynamic speed control:** Adapting velocity in straight lines versus curves increases efficiency without sacrificing control.  
+- **Modular design:** Easily upgradable hardware and software architecture supports iterative development and rapid testing.  
+- **Comprehensive documentation:** Detailed instructions and open-source code improve learning and foster community collaboration.
+
+---
+
+### Index
+- [Challenge Overview](#challenge-overview)  
+- [Competition Format](#competition-format)  
+- [Scoring & Evaluation](#scoring--evaluation)  
+- [Robot Performance](#robot-performance-speed-and-maneuvering)  
+- [Key Components](#key-components)  
+- [Strengths and Innovations](#strengths-and-innovations)  
+
+
 
 ### 📊 Wiring Diagram
 
