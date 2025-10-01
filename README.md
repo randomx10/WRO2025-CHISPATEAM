@@ -318,6 +318,53 @@ Our robot was built using a mix of modular components from an existing kit and c
 
 ---
 
+## 🛠️ Robot Construction Guide
+
+This guide explains how to assemble the chassis, drivetrain, electronics, and software for the WRO2025-CHISPATEAM robot. Each step is short and practical so the build can be reproduced reliably.
+
+### Step 1: Assemble the steering system ⚙️
+- Print the steering-related 3D parts located in `/models` (servo bracket, horn spacer, steering hubs).  
+- Mount the Servo MG945 securely to the chassis using screws and the 3D-printed bracket; verify there is no flex under load.  
+- Connect the steering axle/linkage to the MG945 horn with a proper coupler; ensure full sweep without binding.  
+- Install the front steering hubs and verify the arm moves freely and does not collide with the chassis or wiring.  
+- Center the servo (neutral PWM) and align wheels to straight-ahead before tightening horn screws.
+
+### Step 2: Assemble the powertrain 🚗
+- Fix the JGA25-370 gear motors onto their 3D-printed motor mounts; use thread-lock where appropriate to prevent loosening.  
+- Couple each motor shaft to the driven axle/gear as per the mount design; confirm no eccentricity or wobble.  
+- Check clearance so gears and wheels rotate without rubbing the chassis under load.
+
+### Step 3: Mount the electronics 🔌
+- Attach the LiPo 12V 1200 mAh battery in a protected position; add foam or straps to avoid vibration and impacts.  
+- Install the LM2596 regulator and set a stable 5 V output for logic and sensors; verify with a multimeter before connecting boards.  
+- Place the Raspberry Pi 4 and Arduino MEGA on standoffs; route power via LM2596 and keep high-current lines separate from signal lines.  
+- Mount the Limelight 3A on a rigid, slightly angled bracket; add anti‑vibration pads to stabilize the image.  
+- Position the HC‑SR04 ultrasonic sensors (front and side) with a clear field of view; add small foam skirts if floor reflections are an issue.  
+- Mount the GY‑251 (MPU6050) close to the robot’s center of gravity, flat and isolated from motor vibrations.
+
+### Step 4: Attach the wheels 🛞
+- Mount front wheels on the steering hubs; ensure free rotation and zero lateral play.  
+- Install rear wheels on the driven axle linked to the JGA25‑370; add spacers or washers to maintain alignment.  
+- Spin each wheel by hand and listen for rubbing or gear mesh noise; adjust until smooth.
+
+### Step 5: Preparation for operation ✅
+- Check that the chassis is balanced and that cable runs are secured away from moving parts.  
+- Verify all screw joints are tight; re‑center the servo and confirm steering endpoints do not stall the MG945.  
+- Power on with a current‑limited supply the first time; confirm 5 V rail remains stable under sensor and servo load.
+
+### Step 6: Software setup 💻
+- On Raspberry Pi 4, deploy the Python services for vision (Limelight integration), decision logic, and Pi↔Arduino serial link.  
+- On Arduino MEGA, upload the low‑level firmware handling PWM motor control, servo steering and real‑time sensor reads.  
+- Test the serial protocol: the Pi should stream targets/commands, the MEGA should acknowledge and actuate deterministically.  
+- Calibrate sensors:  
+  - Limelight thresholds/lighting profile.  
+  - Ultrasonic baselines and timeouts.  
+  - MPU6050 gyro bias at rest.  
+- Run a dry test on blocks (wheels off the ground) to validate direction, steering sign, and emergency stop.
+
+---
+
+
 ## 🧠 How It All Works Together
 
 Our robot was developed for the WRO 2025 Future Engineers Challenge, a task requiring navigation of a color-coded maze, obstacle avoidance, and accurate maneuvering. To achieve this, we implemented a layered control strategy:
