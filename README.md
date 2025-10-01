@@ -345,11 +345,11 @@ Both of these components were modeled in CAD software and tested through multipl
 </table>
 
    
-    ### Track Performance
+##  Track Performance
 
 Our vehicle is tuned for stable, repeatable lap times by adapting speed and steering to the track segment: it targets approximately 1.2 m/s on straight sections and about 1.7 m/s through turns, with smooth ramp-up and ramp-down around each corner to preserve traction and heading control.
 
-## 🔧 Key metrics
+#### Key metrics
 - Straight-line speed: ~1.2 m/s, with high-frequency heading corrections to stay centered in the lane.
 - Cornering speed: ~1.7 m/s, limited by lateral acceleration and line-of-sight constraints near inner walls.
 - Transitions: short acceleration/brake ramps before/after the apex to avoid over/understeer.
@@ -372,8 +372,6 @@ Our vehicle is tuned for stable, repeatable lap times by adapting speed and stee
 - Test track uses standard surface and markings; tires are calibrated and warmed up.
 - The 1.2 m/s (straights) and 1.7 m/s (turns) targets can vary slightly with temperature, tire wear, and lighting.
 - Practice sessions should log section times to verify consistency; comparing segment splits is recommended for tuning.
-
-
 
 
 
