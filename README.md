@@ -145,16 +145,21 @@ Our vehicle's average velocity on straight sections is approximately **1.2 meter
 
 ### Key Components
 
-| Component                 | Description                                                |
-|---------------------------|------------------------------------------------------------|
-| **Arduino Nano ESP32**    | High-performance microcontroller for sensor and motor control |
-| **OpenMV H7 Camera**      | Embedded vision sensor for traffic signal and obstacle detection |
-| **HC-SR04 Ultrasonic Sensors (3x)** | For proximity sensing and wall following                        |
-| **MG90S Servo Motor**     | Steering actuator with high torque and precise control    |
-| **Pololu 30:1 Gearmotor** | Drive motor providing balanced speed and torque           |
-| **IFX9201SG Motor Driver**| Efficient PWM motor driver with built-in protections      |
-| **Li-Po Battery (7.4V, 300mAh)** | Compact power source optimized for duration and weight           |
-| **3D-Printed Chassis**    | Lightweight, custom mechanical structure                   |
+| Component | Description |
+| --- | --- |
+| **Raspberry Pi 4** | Central processor for vision, decision logic, and sensor fusion; runs Python services and serial link to Arduino. |
+| **Arduino MEGA** | Real‑time layer for PWM motor drive, servo steering, and ultrasonic reads; ensures deterministic control. |
+| **Limelight 3A** | High‑performance vision module adapted for target/color detection to assist navigation and alignment. |
+| **HC‑SR04 Ultrasonic Sensors (front + side)** | Proximity sensing and wall following; foam collars reduce ground reflections. |
+| **GY‑251 (MPU6050)** | IMU for heading stabilization and consistent 90° turns; mounted near center of gravity. |
+| **TCS3200 Color Sensor** | Floor color detection; calibrated for consistent orange/blue under fixed lighting. |
+| **L298N Motor Driver** | Dual H‑bridge for direction and PWM speed control; onboard heatsink improves thermal headroom. |
+| **JGA25‑370 Gear Motors** | Drive motors with high torque at low RPM for precise maneuvers and climbs. |
+| **Servo MG945** | Metal‑gear steering servo; mounted on custom 3D bracket to avoid horn slip. |
+| **LiPo 12 V 1200 mAh** | Main power source; sized for match duration with headroom for peaks. |
+| **LM2596 Buck Regulator (5 V)** | Stable 5 V rail for logic and sensors; tuned under load to prevent brownouts. |
+| **3D‑Printed Chassis** | Lightweight, custom structure with rigid mounts and protected cable routing. |
+
 
 ### Strengths and Innovations
 - **Advanced vision processing:** Real-time color and shape detection for robust environment understanding.  
