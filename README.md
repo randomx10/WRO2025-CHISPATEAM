@@ -45,11 +45,11 @@ Here you can see the full design of the vehicle from every angle. This detailed 
 
 | Front | Back | Left |
 |--------|---------|-----------|
-| ![](v-photos/front1.jpg) | ![](v-photos/back.jpg) | ![](v-photos/left.jpg) |
+| ![](v-photos/front.jpeg) | ![](v-photos/back.jpeg) | ![](v-photos/left.jpeg) |
 
 | Right | Top | Bottom |
 |--------|----------|----------|
-| ![](v-photos/right.jpg) | ![](v-photos/top.jpg) | ![](v-photos/bottom.jpg) |
+| ![](v-photos/right1.jpeg) | ![](v-photos/top.jpeg) | ![](v-photos/bottom.jpeg) |
 
 ---
 
